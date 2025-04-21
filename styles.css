@@ -1,0 +1,70 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      margin: 0;
+    }
+    aside {
+      background-color: #f8f9fa;
+      padding: 20px;
+      width: 25%;
+    }
+    aside img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    aside nav a {
+      display: block;
+      margin: 10px 0;
+      color: #000;
+      font-weight: 600;
+      text-align: center;
+      text-decoration: none;
+    }
+    aside button {
+      background-color: #dc3545;
+      color: white;
+      font-weight: bold;
+      width: 100%;
+      margin-bottom: 20px;
+      border: none;
+      padding: 10px;
+    }
+    header {
+      background-color: #0dcaf0;
+      padding: 10px;
+      text-align: right;
+    }
+    main {
+      flex: 1;
+      padding: 20px;
+    }
+    section {
+      background-color: #e9ecef;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: gray;
+      padding: 10px;
+    }
+    .modal-body a {
+      display: block;
+      padding: 10px;
+      background-color: #f1f1f1;
+      margin-bottom: 10px;
+      text-decoration: none;
+      color: #000;
+      border-radius: 5px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .modal-body a:hover {
+      background-color: #e2e6ea;
+    }
